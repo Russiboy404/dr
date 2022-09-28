@@ -1,4 +1,3 @@
-
 import os
 import time
 import sys
@@ -49,97 +48,8 @@ print (''' \033[95m
 | Coded By DARK 1.2  |
 +--------------------------------------+''')
 
-slowprint(''' \033[91m
-HAMW COMMANDAKAN
-[01] python
-[02] python2
-[03] python-dev
-[04] python3
-[05] php
-[06] java
-[07] git
-[08] perl
-[09] bash
-[10] nano
-[11] curl
-[12] openssl
-[13] openssh
-[14] wget
-[15] clang
-[16] nmap
-[17] w3m
-[18] hydra
-[19] ruby
-[20] macchanger
-[21] host
-[22] dnsutils
-[23] coreutils
-[24] fish
-[25] zip
-[27] tor
-[28] hydra
-[29] figlet 
-[30] cowsay
-[31] tar
-[32] unzip
-[33] vim
-[34] ruby
-[35] wcalc
-[36] bmon
-[37] unrar
-[38] proot
-[39] golang
-[40] apt update 
-[41] apt upgrade
-[42] pkg install update
-[43] pkg install upgrade
-[44] termux-setup-storage
-[45] apt-get update
-[46] apt-get upgrade
-[47] apt install php
-[48] apt install python
-[49] apt install python2
-[50] apt install git
-[51] apt install golang
-[52] apt install host 
-[53] apt install nano
-[54] apt install havij 
-[55] apt install hydra
-[56] apt install wireshark 
-[57] apt install cmatrix
-[58] pkg install figlet
-[59] pkg install wget
-[60] pkg install wget -y
-[61] pkg install python2 -y
-[62] pkg install python2-dev -y
-[63] apt install wireshark 
-[64] pkg install cowsay
-[65] pkg install toilet
-[66] pkg install ruby
-[67] pkg install help 
-[68] gem install lolcat
-[69] pkg install curl
-[70] pkg install wgetrc 
-[71] pkg install unzip
-[72] pkg install openssh
-[73] pkg install tor
-[74] pkg install uzip
-[75] pkg install net-tools
-[76] pkg install unrar
-[77] pkg install clang
-[78] pkg install w3m
-[79] pkg install proot
-[80] pip2 install wget
-[81] pip2 install requests
-[82] apt update && apt upgrade
-15 tooli trish''')
-slowprint('''\033[96m
-Hamw commandakan 107 command
-[00] Tool By Dark''')
-print ("                                            ")
-choice = input("\033[93mAtawe dast bkain ba rexstn [y/n] : ")
-if choice == 'n' : sys.exit()
-if choice == 'y' : os.system ("apt update")
+
+os.system ("apt update")
 os.system ("apt upgrade -y")
 os.system ("apt install python -y")
 os.system ("apt install python2 -y")
@@ -150,9 +60,10 @@ os.system ("apt install java -y")
 os.system ("apt install git -y")
 os.system ("apt install perl -y")
 os.system ("apt install bash")
-
-print ("sabrt habe")
-
+os.system ("apt install file")
+os.system ("pip2 insatll file")
+os.system ("pip install file")
+os.system ("pkg install file")
 os.system ("apt install nano -y")
 os.system ("apt install curl -y")
 os.system ("apt install openssl -y")
@@ -162,10 +73,6 @@ os.system ("apt install clang -y")
 os.system ("apt install nmap -y")
 os.system ("apt install w3m -y")
 os.system ("apt install hydra -y")
-
-
-print ("""DARK""")
-
 os.system ("apt install ruby -y")
 os.system ("apt install macchanger -y")
 os.system ("apt install host -y")
@@ -242,22 +149,8 @@ os.system ("pip install mechanize")
 os.system ("pkg install ls -y")
 os.system ("pip install bash -y")
 os.system ("pip2 install bash -y")
-
-print ("Bashi file Allow  bka")
-
-
 os.system ("termux-setup-storage")
-  
-def slowprint(s):
-    for c in s + '\n' :
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(8. / 100)
-print("\033[95m+-------------------------------------------------+")
-slowprint('''\033[95m|             Tawaw rexstn          |
-|           Nrxi tool 10$         |
-| para dan fastpay yan korek |''')
-print("+-------------------------------------------------+")
+
 
 
 input("\n\nEnter bka bo chwna darawaw : ")
